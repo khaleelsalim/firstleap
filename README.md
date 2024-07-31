@@ -43,7 +43,7 @@ Open the terminal in your command prompt or in the IDE. If using PyCharm, naviga
 
 ## Step 2: Create a Working Directory
 Run the following commands
-* $ pwd          # Prints the current d irectory
+* $ pwd          # Prints the current directory
 * $ mkdir Project # Creates a directory named Project
 * $ cd Project # Changes to the Project directory
 
