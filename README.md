@@ -104,7 +104,7 @@ We have to use a headless browser engine. We can download the ChromeDriver that 
 
 ![three.png](/image/three.png)
 
-Copy the first link in the list, Chrome, which is the one for linux64.Pase it on a browser and that will download ChromeDriver.
+Copy the first link in the list, Chrome, which is the one for linux64.Paste it on a browser and that will download ChromeDriver.
 
 ### Step 8: Configure middlewares.py 
 Locate middlewares.py in the scrapy-selenium sub-folder in the site-packages folder:
