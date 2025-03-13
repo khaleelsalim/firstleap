@@ -100,7 +100,7 @@ An image of the page is given below
 
 [](https://googlechromelabs.github.io/chrome-for-testing/)
 
-We have to use a headless browser engine. We can download the ChromeDriver that matches the installed Chrome browser on our operating system. Once you are here you can chose the ChromeDriver compatible with the Chrome browser. To check your current Chrome version, go to a google page settings and check the version. Check the first three digits and pick the appropriate link from the table. Here, it starts with 126. and we can pick the right version of ChromeDriver.
+We have to use a headless browser engine. We can download the ChromeDriver that matches the installed Chrome browser on our operating system. Once you are here you can chose the ChromeDriver compatible with the Chrome browser. To check your current Chrome version, go to a google page settings and check the version. Check the first three digits and pick the appropriate link from the table. Here, it starts with 126. We can pick the right version of ChromeDriver for your browser.
 
 ![three.png](/image/three.png)
 
