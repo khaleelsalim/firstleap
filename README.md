@@ -163,8 +163,11 @@ Let's break down the above code changes:
 Let's execute this spider and save the scraping results.Give this in the command line:
 * $ scrapy crawl cv_spider –output cv_spider.json
 
-Now a json file will be created in the project folder. The above Scrapy command will execute the spider and save the scraping results into the cv_spider.json file:
+Now a JSON files will be created in the project folder. The above Scrapy command will execute the spider and save the scraping results into the cv_spider.json file:
 
+Iterator script is used to run the scraping (cv_spider.py) script. When iterator runs the commmand "scrapy crawl -L WARNING x_spider -o {doing_folder}/{filename}.json -a keyword={keyword}" is executed. A new folder 'data' will be created to to handle the files.The folder 'data' has three sub folders "doing" , "pipeline" and "done". JSON files are created in the current directory. Scraped data will be saved in those JSON files. Once scraping for a keyword is over, the JSON file is moved to the pipeline folder in the same directory. 
+
+A pipeline script is created to process the data scraped. Each JSON file has three parsing. In the pipeline scrpit separating and merging the tables happen and then the du[plicates are removed in this process and the final output JSON f 
 
 
 
