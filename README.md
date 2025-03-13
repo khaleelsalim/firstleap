@@ -214,10 +214,11 @@ Docker allows us to package our application along with its dependencies, ensurin
 
 Essential Docker Files
 
-  1. Dockerfile
+  1. Dockerfile:
+     
   The Dockerfile is a script that contains all the instructions to build a     
   Docker image for our project.
-  2. docker-compose.yaml
+  3. docker-compose.yaml
   _docker-compose.yaml_ is a configuration file that helps us run multiple    
   containers (such as PostgreSQL and our Scrapy-Selenium pipeline) together.
   Here's a breakdown of what each service does:
