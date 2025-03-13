@@ -215,11 +215,33 @@ Docker allows us to package our application along with its dependencies, ensurin
 Essential Docker Files
 
   1. Dockerfile
-       The Dockerfile is a script that contains all the instructions to build a   
-       Docker image for our project.
+  The Dockerfile is a script that contains all the instructions to build a     
+  Docker image for our project.
   2. docker-compose.yaml
-       _docker-compose.yaml_ is a configuration file that helps us run multiple    
-       containers (such as PostgreSQL and our Scrapy-Selenium pipeline) together.
+  _docker-compose.yaml_ is a configuration file that helps us run multiple    
+  containers (such as PostgreSQL and our Scrapy-Selenium pipeline) together.
+  Here's a breakdown of what each service does:
+     - PostgreSQL (postgres)
+       - Uses the latest PostgreSQL image to store scraped job data
+       - Mounts a volume (postgres_data) for database storage
+       - Exposes port 5432 for database access
+     - pgAdmin (pgadmin)
+       - A web-based PostgreSQL administration tool for managing the database.
+       - Runs on port 80, allowing easy database access.
+       - Depends on the PostgreSQL service.
+     - Scraper
+       - Runs the Scrapy-Selenium scraper inside a Docker container
+       - Mounts the data directory to share scraped data between services.
+       - Depends on Chromedriver to ensure the browser is available.
+     - Pipeline
+       - Provides visual dashboards for monitoring database metrics.
+       - Uses port 3000 for the web interface.
+       - Stores data in a persistent volume (grafana_data) for retention.
+     - Volumes
+       - postgres_data: Stores PostgreSQL data persistently.
+       - grafana_data: Stores Grafana dashboard configurations persistently.
+     
+       
 
 
 
