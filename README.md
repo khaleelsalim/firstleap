@@ -210,8 +210,7 @@ Docker allows us to package our application along with its dependencies, ensurin
   - Portability: Run the application on any system without installation issues.
   - Dependency Management: All required libraries are bundled in a container.
   - Scalability: Easily deploy multiple instances of the scraper.
-  - Isolation: The application runs in a self-contained environment without     
-    affecting the host system.
+  - Isolation: The application runs in a self-contained environment without affecting the host system.
 
 Essential Docker Files
 
@@ -221,6 +220,9 @@ Essential Docker Files
       - The base image(Python environment)
       - The dependencies to be installed
       - The command to start the application
+
+    ![dockerfile.png](/image/dockerfile.png)
+       
         
   3. docker-compose.yaml :
   _docker-compose.yaml_ is a configuration file that helps us run multiple    
