@@ -220,7 +220,7 @@ Essential Docker Files
       - The base image(Python environment)
       - The dependencies to be installed
       - The command to start the application
-
+  
     ![dockerfile.png](/image/dockerfile.png)
        
         
