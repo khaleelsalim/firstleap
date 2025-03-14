@@ -25,7 +25,7 @@
     * [Step 10: Integrate Selenium with Scrapy](#step-9-integrate-selenium-with-scrapy)
     * [Step 11: Generate Spider Template](#step-11-generate-spider-template)
     * [Step 12: Modify Spider Code](#step-12-Modify-spider-code)
-    * Step 13: Running the Scraper with Iterator
+    * [Step 13: Running the Scraper with Iterator](#step-13-Running-the-Scraper-with-Iterator)
     
 
 <!-- TOC -->
