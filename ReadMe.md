@@ -46,15 +46,15 @@ SCRAPY PRO
 
 Run the following commands
 
-- pwd # Prints the current directory
-- mkdir Project # Creates a directory named Project
-- cd Project # Changes to the Project directory
+- $ pwd            # Prints the current directory
+- $ mkdir Project  # Creates a directory named Project
+- $ cd Project     # Changes to the Project directory
 
 ### step 3: Initialize Poetry
 
 Run the following command to initialize a new Poetry project:
 
-- poetry init
+- $ poetry init
 
 Specify the following dependencies when prompted:
 
