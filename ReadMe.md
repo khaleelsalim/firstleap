@@ -80,7 +80,7 @@ Ensure you're running in a Poetry environment:
 
 Follow the highlighted path to set up the Poetry environment in your IDE. Copy the path.
 
-![venv1](/home/khaleel/Projects/first_project/image/venv_info.png)
+![venv_info](/home/khaleel/Projects/first_project/image/venv_info.png)
 
 Go to Add new interpreter -> Add Local Interpreter -> Environments -> Existing environment and paste the copied path. See the screenshots bewlow to see the steps.
 
