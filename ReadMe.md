@@ -32,8 +32,8 @@ SCRAPY PRO
  This project is an automated job scraping pipeline that extracts job listings, job details, and company information from CV-Library using Scrapy and Selenium. The scraped data is processed and stored in a PostgreSQL database. Docker is used for environment management, ensuring smooth execution across different systems.
 
 # Prerequisites
-- OS: Linux ( recommended) / MacOS / Windows with WSL
-- Python: Version 3.10+
+- OS: Linux
+- Python: Version 3.8
 - Docker: Installed and running
 - PostgreSQL: Version 14+
 
