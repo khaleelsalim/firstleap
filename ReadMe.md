@@ -4,7 +4,7 @@ SCRAPY PRO
 
 <!-- TOC -->
 * [Scrapy Project](#scrapy-project)
-  * [Prerequistes](#prerequistes)
+* [Prerequistes](#prerequistes)
 * [Setting up the Project](#setting-up-the-project) 
   * [Step 1: Open the Terminal](#step-1-open-the-terminal)
   * [Step 2: Create a Working Directory](#step-2-create-a-working-directory)
